@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* if we use #fistPara as id selector then only first line contain that rectangle line
+        #firstPara{
+            border: 4px solid goldenrod;
+        } 
+        */
+
+        /* Element Selector */
+        p{
+            border: 5px solid goldenrod;
+        }
+
+        /* id selector */
+        #firstPara{
+            color: green;
+        }
+
+        /* Class selector */
+        .bgBlue{
+            color: yellow;
+            background-color: blue;
+        }
+
+        /* Grouping selector */
+        footer,span{
+            color: pink;
+        }
+     </style> 
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <p id="firstPara">This is simple paragraph to demonstrate CSS Selectors</p>
+    <p id="secondPara" class="redElement bgBlue">This is another simple paragraph to demonstrate CSS Selectors</p>
+    <div>
+        <p>This is simple paragraph to demonstrate CSS Selectors</p>
+    </div>
+    <span>This is span </span>
+    <footer>
+        This is footer
+    </footer>
+</body>
+</html>
